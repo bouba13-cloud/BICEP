@@ -9,9 +9,8 @@ variables:
   webAppName: 'bicep0017'
   templateFile: '01-bicep-webapp/webapp-linux.bicep'
 
-pool:
-  vmImage: 'agentPool1'
-
+pool:agentPool1
+  
 steps:
 
 - task: AzureCLI@2
