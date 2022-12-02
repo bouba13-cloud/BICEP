@@ -10,7 +10,7 @@ variables:
   templateFile: '01-bicep-webapp/webapp-linux.bicep'
 
 pool:
-  vmImage: 'AgentBoubacar'
+  vmImage: 'agentPool1'
 
 steps:
 
