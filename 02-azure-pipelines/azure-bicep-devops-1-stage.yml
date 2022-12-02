@@ -1,7 +1,7 @@
 name: Deploy Bicep files
 
-
-# - main
+trigger:
+- main
 
 variables:
   resourceGroupName: 'rg-bicep-demo-0017'
@@ -11,12 +11,13 @@ variables:
 
 pool:agentPool1
   
+
 steps:
 
 - task: AzureCLI@2
   displayName: Preview Bicep Changes
   inputs:
-    azureSubscription: 'Mon Abonnement(2)(2e21be92-9927-48fd-9a3a-5108d65724c6)'
+    azureSubscription: 'Mon Abonnement(3)(2e21be92-9927-48fd-9a3a-5108d65724c6)'
     scriptType: 'ps'
     scriptLocation: 'inlineScript'
     inlineScript: |
