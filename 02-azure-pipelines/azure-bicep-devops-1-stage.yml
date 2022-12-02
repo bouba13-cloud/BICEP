@@ -10,9 +10,8 @@ variables:
   templateFile: '01-bicep-webapp/webapp-linux.bicep'
 
 pool:agentPool1
-  
-
-steps:
+  steps:
+    -  
 
 - task: AzureCLI@2
   displayName: Preview Bicep Changes
