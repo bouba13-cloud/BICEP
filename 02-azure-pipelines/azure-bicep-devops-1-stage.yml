@@ -17,7 +17,7 @@ steps:
 - task: AzureCLI@2
   displayName: Preview Bicep Changes
   inputs:
-    azureSubscription: 'Mon Abonnement(2e21be92-9927-48fd-9a3a-5108d65724c6)'
+    azureSubscription: 'Mon Abonnement(1)(2e21be92-9927-48fd-9a3a-5108d65724c6)'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
